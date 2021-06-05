@@ -1,0 +1,160 @@
+.booking-section{
+    background-color: #2f81ed;
+    background-image: linear-gradient(to right, #2F80ED, #56CCF2);
+    display: table;
+    position: absolute;
+    left: 0;
+    height: calc(100% - 55px);
+    width: 100%;
+}
+.booking-form{
+    width: 50%;
+    padding: 30px;
+    background: white;
+    box-shadow: 2px 4px 10px #a2806f;
+    margin: 55px 25%;
+}
+
+.trip-blk{
+    display: inline-flex;
+}
+
+.trip-option{
+    margin-right: 20px;
+    text-align: center;
+    width: 100px;
+    border: 1px solid #E72744;
+    border-radius: 25px;
+    height: 30px;
+    padding-top: 3px;
+    cursor: pointer;
+    color: #E72744;
+}
+
+.trip-type{
+    cursor: pointer;
+}
+
+.selected-trip{
+    background: #E72744;
+    color: white;
+    border: none;
+}
+
+.form-field{
+    width: 75%;
+    margin: auto;
+    text-align: left;
+}
+
+.field-blk{
+    text-align: left;
+    padding: 10px 0px 0px;
+}
+
+.field-title{
+    font-size: 18px;
+}
+
+.field-input{
+    width: 100%;    
+    padding: 0px;
+}
+
+.field-input select{
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    outline: none;
+    padding-left: 15px;
+    cursor: pointer;
+    border: 1px solid #0000002e;
+    border-radius: 4px;
+    color: #151515d6;
+}
+
+.date-blk {
+    padding: 0px;
+}
+
+.p-l-10{
+    padding-left: 10px;
+}
+
+.p-r-10{
+    padding-right: 10px;
+}
+
+.date-blk .react-date-picker{
+    height: 50px;
+    width: 100%;
+    border: 1px solid #0000002e;
+    border-radius: 4px;
+    color: #151515d6;    
+    font-size: 18px;
+    outline: none;
+    padding-left: 15px;
+    text-align: left;
+    float: left;
+}
+
+.react-date-picker__wrapper{
+    border: none;
+}
+
+.button-blk{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.button{
+    height: 50px;
+    width: 120px;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    background-color: #53c6f2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.error-blk{
+    text-align: left;
+    font-style: italic;
+    padding-top: 10px;
+    color: red;
+}
+
+.asterik{
+    color: red;
+}
+
+@media only screen and (max-width: 400px) {
+    
+    .booking-form{
+        width: 80%;
+        padding: 2%;
+        background: white;
+        margin: 35px 10%;
+    }
+    .form-field{
+        width: 80%;
+    }
+    .date-blk .react-date-picker{
+        width: 100%;
+    }
+
+    .p-l-10{
+        padding-left: 0px;
+    }
+    
+    .p-r-10{
+        padding-right: 0px;
+    }
+}
