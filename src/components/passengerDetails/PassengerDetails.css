@@ -1,0 +1,42 @@
+.passenger-title-blk{
+    padding: 20px;
+    text-align: left;
+    padding-bottom: 0px;
+    color: white;
+    font-size: 18px;
+}
+
+.passenger-data{
+    padding: 20px;
+    margin: 10px 20px 20px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 2px 4px 10px #a2806f;
+}
+
+.input-blk{
+    display: flex;
+    margin: 10px 0px;
+    align-items: center;
+}
+
+.input-label{
+    width: 150px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.passenger-input{
+    width: 65%;
+    height: 35px;
+    outline: none;
+    border: 1px solid #0000002e;
+    border-radius: 4px;
+    padding-left: 8px;
+    text-transform: uppercase;
+}
+
+.passenger-input .react-date-picker__inputGroup{
+    text-align: left;
+}

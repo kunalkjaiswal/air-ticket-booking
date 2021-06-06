@@ -103,7 +103,7 @@
 }
 
 .button-blk{
-    padding-top: 20px;
+    padding: 20px 0px 20px;
     text-align: center;
 }
 
@@ -113,7 +113,7 @@
     outline: none;
     font-size: 18px;
     color: white;
-    background-color: #53c6f2;
+    background-color: #E72744;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -133,6 +133,14 @@
 
 .asterik{
     color: red;
+}
+
+.passenger-error{
+    padding-left: 20px;
+}
+
+.swal2-actions button{
+    background-color: #E72744 !important;
 }
 
 @media only screen and (max-width: 400px) {
