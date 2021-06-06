@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/air-ticket-booking/static/css/main.1e8fc7e4.chunk.css",
+    "main.js": "/air-ticket-booking/static/js/main.e8424d21.chunk.js",
+    "main.js.map": "/air-ticket-booking/static/js/main.e8424d21.chunk.js.map",
+    "runtime-main.js": "/air-ticket-booking/static/js/runtime-main.cfa8b9b8.js",
+    "runtime-main.js.map": "/air-ticket-booking/static/js/runtime-main.cfa8b9b8.js.map",
+    "static/css/2.4c78f058.chunk.css": "/air-ticket-booking/static/css/2.4c78f058.chunk.css",
+    "static/js/2.6a5e256e.chunk.js": "/air-ticket-booking/static/js/2.6a5e256e.chunk.js",
+    "static/js/2.6a5e256e.chunk.js.map": "/air-ticket-booking/static/js/2.6a5e256e.chunk.js.map",
+    "static/js/3.59aeafdf.chunk.js": "/air-ticket-booking/static/js/3.59aeafdf.chunk.js",
+    "static/js/3.59aeafdf.chunk.js.map": "/air-ticket-booking/static/js/3.59aeafdf.chunk.js.map",
+    "index.html": "/air-ticket-booking/index.html",
+    "static/css/2.4c78f058.chunk.css.map": "/air-ticket-booking/static/css/2.4c78f058.chunk.css.map",
+    "static/css/main.1e8fc7e4.chunk.css.map": "/air-ticket-booking/static/css/main.1e8fc7e4.chunk.css.map",
+    "static/js/2.6a5e256e.chunk.js.LICENSE.txt": "/air-ticket-booking/static/js/2.6a5e256e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cfa8b9b8.js",
+    "static/css/2.4c78f058.chunk.css",
+    "static/js/2.6a5e256e.chunk.js",
+    "static/css/main.1e8fc7e4.chunk.css",
+    "static/js/main.e8424d21.chunk.js"
+  ]
+}
